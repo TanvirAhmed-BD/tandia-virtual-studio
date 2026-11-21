@@ -45,6 +45,9 @@
   .card p{font-size:15px;color:var(--mut)}
   .about{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;max-width:820px;margin:0 auto}
   .about p{font-size:16px;color:#37423c;margin-bottom:12px}
+  .film{max-width:820px;margin:0 auto}
+  .film video{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);box-shadow:0 12px 30px rgba(11,61,46,.18);background:#000}
+  .credit{font-family:Arial,sans-serif;font-size:12px;color:var(--mut);text-align:center;margin-top:10px}
   .brands{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
   .brand{background:var(--green);color:#f2ecd9;border-radius:999px;padding:9px 20px;font-family:Arial,sans-serif;font-size:14px;text-decoration:none}
   .brand:hover{background:var(--green2);color:#fff}
@@ -61,7 +64,7 @@
     <img src="logo.png" alt="Tandia Virtual Studio logo">
     <div class="hname">Tandia <b>Virtual Studio</b></div>
     <nav class="hnav">
-      <a href="#services">Services</a><a href="#plans">Monthly Plans</a><a href="#products">Products</a><a href="#process">How It Works</a><a href="#about">About</a><a href="#brands">Our Work</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+      <a href="#intro">Intro</a><a href="#services">Services</a><a href="#plans">Monthly Plans</a><a href="#products">Products</a><a href="#process">How It Works</a><a href="#about">About</a><a href="#brands">Our Work</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -75,6 +78,20 @@
     <p class="sub">Chattogram, Bangladesh · Working with clients everywhere</p>
   </div>
 </div>
+
+<section id="intro">
+  <div class="wrap">
+    <h2>Meet the Studio</h2>
+    <p class="lead">Fifty-five seconds with our founder — who we are, what we make, and how we work with clients around the world.</p>
+    <div class="film">
+      <video controls preload="metadata" poster="intro-poster.jpg" playsinline>
+        <source src="intro-video.mp4" type="video/mp4">
+        Your browser does not support the video tag. <a href="intro-video.mp4">Download the intro film</a>.
+      </video>
+      <p class="credit">Music: &ldquo;Clash Defiant&rdquo; Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 License (creativecommons.org/licenses/by/4.0/)</p>
+    </div>
+  </div>
+</section>
 
 <section id="services">
   <div class="wrap">
